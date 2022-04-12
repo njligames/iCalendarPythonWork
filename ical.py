@@ -157,6 +157,7 @@ def addChestBackAbRipperPhase1(cal, startDate, organizer, location):
     cal.add_component(createWorkoutEvent(workouts[11], dt, organizer, location))
 
 def addPhaseOne(cal, startDate, organizer, location):
+    # https://bod-cms-assets.prod.cd.beachbodyondemand.com/bod-cms/wp-content/uploads/2017/06/P90X_FitnessGuide_06082017.pdf
     addChestBackAbRipper(cal, startDate, organizer, location)
 
 
